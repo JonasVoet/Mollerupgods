@@ -1,0 +1,58 @@
+form {
+    padding: 1rem 2rem 1rem 5%;
+    color: #6F6F6F;
+
+
+    .input-field {
+        display: block;
+        width: 100%;
+        padding: 0.8rem 0;
+        text-indent: 2%;
+        border: 1px solid #ABB0B2;
+        background: #ffff;
+        border-radius: 3px;
+        width: 19rem;
+
+    }
+
+    .button {
+        background-color: #aaa;
+        border: 0 none;
+        border-radius: 4px;
+        transition: all 0.23s ease-in-out 0s;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: normal;
+        height: 3.2rem;
+        margin: 1rem 0.5rem 1rem 0;
+        padding: 0 2.2rem;
+        width: auto;
+
+        &:hover {
+            background-color: #777;
+        }
+    }
+
+    li:nth-of-type(1) {
+        margin-top: 2rem;
+    }
+
+    .email {
+        padding-top: 2rem;
+        display: inline-block;
+    }
+
+    .name {
+        padding-top: 2rem;
+        display: inline-block;
+
+    }
+
+    .lastname {
+        padding-top: 2rem;
+        display: inline-block;
+    }
+
+}

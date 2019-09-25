@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    background-color: #E4E4E4;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ".first second third .";
+
+    ul {
+        color: #838383;
+        margin-top: 3rem;
+        font-size: 1.5em;
+    }
+
+    .first {
+        grid-area: first;
+    }
+
+    .second {
+        grid-area: second;
+
+        a {
+            color: #C05A5A;
+        }
+    }
+
+    .third {
+        grid-area: third;
+        margin-top: 4rem;
+
+        a {
+            color: #838383;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

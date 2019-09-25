@@ -1,0 +1,40 @@
+.outro {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        "insta form";
+    grid-column-gap: 5rem;
+
+    .insta {
+        grid-area: insta;
+    }
+
+
+    .form {
+        max-height: 51.5vh;
+        min-height: 51.5vh;
+        background-color: white;
+        grid-area: form;
+        justify-self: end;
+        // margin-left: 15rem;
+
+        h3 {
+            font-size: 2em;
+            text-align: center;
+            color: #6F6F6F;
+            margin-top: 2rem;
+        }
+
+        label {
+            font-size: 1.8em;
+        }
+
+    }
+
+    .text-info {
+        font-size: 1.7em;
+        padding-top: 1rem;
+        margin-bottom: -1rem;
+        color: #666666;
+    }
+}

@@ -1,0 +1,24 @@
+.slide-container {
+    width: 100%;
+    margin: auto;
+}
+
+.each-slide .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+
+}
+
+
+
+
+.each-slide .image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.each-slide .image-container img {
+    width: 100%;
+}

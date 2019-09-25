@@ -1,0 +1,49 @@
+header {
+    margin: 4rem 26%;
+
+    .logo {
+        user-select: none;
+        -webkit-user-drag: none;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            padding-bottom: 2rem;
+
+        }
+    }
+
+    .navbar {
+        width: 100%;
+        margin-bottom: 3rem;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: right;
+
+
+            li {
+                padding-right: 2rem;
+            }
+
+            a {
+                color: #333;
+                font-size: 2em;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+        }
+
+    }
+
+    .active {
+        color: #99888e !important;
+    }
+
+
+}
